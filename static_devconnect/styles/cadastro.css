@@ -1,0 +1,163 @@
+main 
+
+{
+
+    width: 100%;
+    min-height: 100vh; /* Altura da janela do dispositivo */
+    background-color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+main > div 
+
+{
+    
+    /* border: var(--borda); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 700px;
+     background-color: var(--cor-NeuralBlue);
+}
+
+main > div > form 
+
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+/* formulario */
+
+#formulario
+
+{
+display: flex;
+max-width: 450px ;
+height: 500px;
+flex-direction: column;
+align-items: center;
+padding: 5%;
+gap: 15px;
+}
+
+
+
+/* cadastro */
+
+#secao-cadastro{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cadastro
+
+{
+
+height: 50px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+#cadastro,
+#formulario
+
+{
+
+/* width: 380px; */
+/* border: var(--borda);    */
+border-width: 5px; 
+border-radius: var(--borda-arredondada);
+background-color: var(--cor-NeuralBlue);
+
+
+}
+
+#formulario > div{
+    width: 100%;
+    gap: 90px;
+}
+
+#formulario > div > label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+#informação-aplicativo 
+
+{
+
+font-size: var(--tamanho-fonte-sm);
+
+}
+
+/* instalação */
+
+#secao-instalacao
+
+{
+
+display: flex;
+justify-content: space-around;
+gap: 10px;
+flex-wrap: wrap;
+
+
+}
+
+#secao-instalacao img
+
+{
+    width: 120px;
+    height: 39px;
+}
+
+.formulario-botao-azul{
+    width: 100%;
+    height: 40px;
+}
+
+#formulario > p{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+}
+
+
+#formulario > a{
+    text-decoration: none;
+    color: var(--cor-NeuralBlue);
+}
+
+#formulario > a, #secao-cadastro > p > a{
+    text-decoration: none;
+    color: var(--cor-cianoclaro);
+}
+
+
+
+#secao-cadastro > p{
+    font-size: var(--tamanho-fonte-md);
+}
+
+#formulario > div > button{
+    height:40px ;
+}
