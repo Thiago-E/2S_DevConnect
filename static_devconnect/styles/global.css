@@ -53,3 +53,77 @@ input{
     font-size: var(--tamanho-fonte-sm);
     font-weight: 600;
 }
+
+#campo-upload{
+    display: none;
+}
+
+#texto-upload{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--cor-AquaPastel);
+    color: var(--cor-NeuralBlue);
+    text-align: centerz;
+}
+
+/* cabecalho */
+#cabecalho{
+    width: 100%; /*100% da janela de visualizacao*/
+    height: 80px;
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: var(--cor-preto);
+}
+
+#cabecalho > nav{
+    background-color: var(--cor-branco);
+    width: 80%;
+    max-width: 1440px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-mobile{
+    display: none;/*remove a exibicao da imagem*/
+}
+
+.cabecalho-acoes{
+    background-color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-acoes > a{
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil{
+    width: 40px;
+    height: 40px;
+    object-fit: cover; /*redimensiona a foto*/
+    object-position: center;
+    border-radius: 50%;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 485px) {
+  #logo-mobile{
+    display: initial;
+  }
+
+#logo-desktop{
+    display: none;
+}
+
+}
+
+
