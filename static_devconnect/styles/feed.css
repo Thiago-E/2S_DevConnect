@@ -59,7 +59,7 @@ main{
 
 .card-story > a > span{
    
-    color: var(--cor-preto);
+    color: var(--cor-preto);    
     font-size: var(--tamanho-fonte-sm);
 }
 
@@ -73,7 +73,7 @@ main{
 
 #cadastro-publi > h2{
     font-size: var(--tamanho-fonte-lg);
-    color: var(--cor-pretod);
+    color: var(--cor-preto);
     font-weight: 800;
 }
 
@@ -86,3 +86,85 @@ main{
     color: var(--cor--NeuralBlue);
     font-size: var(--tamanho-fonte-sm);
 }
+
+#cadastro-publi > form > textarea::placeholder{
+    color: var(--cor-AquaPastel);
+}
+
+#cadastro-publi > form > footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#publicacoes {
+    background-color: violet;
+    width: 100%;
+    height: 200px;
+}
+
+.card-publi{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+}
+
+.card-publi > header{
+    height: 80px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    
+}
+
+.card-publi > header > a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--cor-preto);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.imagem-publicacao{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 550px;
+}
+
+.descricao-publicacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--tamanho-fonte-md);
+    font-weight: 500;
+    padding: 0 3%;
+    order: 2;
+}
+
+.descricao-publicacao > p{
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+}
+
+
+.interacoes-publicacao{
+    background-color: aliceblue;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    order: 1;
+}
+
+.interacoes-publicacao > span{
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 700;
+    color: var(--cor-preto);
+}
+
