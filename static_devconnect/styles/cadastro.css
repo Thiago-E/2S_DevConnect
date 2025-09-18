@@ -1,14 +1,21 @@
+body
+
+{
+    
+    background-color: var(--cor-AquaPastel);
+
+}
+
+
 main 
 
 {
 
     width: 100%;
     min-height: 100vh; /* Altura da janela do dispositivo */
-    background-color: var(--cor-AquaPastel);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
 
 }
 
@@ -21,7 +28,6 @@ main > div
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 450px;
     height: 700px;
      background-color: var(--cor-branco);
 }
@@ -29,7 +35,7 @@ main > div
 main > div > form 
 
 {
-
+width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +49,7 @@ main > div > form
 #formulario
 
 {
+
 display: flex;
 max-width: 450px ;
 height: 500px;
@@ -57,10 +64,12 @@ gap: 15px;
 /* cadastro */
 
 #secao-cadastro{
-    height: 60px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    flex-wrap: wrap;
 }
 
 
@@ -68,7 +77,6 @@ gap: 15px;
 
 {
 
-height: 50px;
 display: flex;
 justify-content: space-around;
 align-items: center;

@@ -48,7 +48,7 @@ input{
 .formulario-botao-azul{
     background-color: var(--cor-cianoclaro);
     border-radius:  var(--borda-arredondada);
-    border: nome;/*removendo a bordar*/
+    border: none;/*removendo a bordar*/
     height: 50px;
     width: 30%;
     color: var(--cor-preto);
